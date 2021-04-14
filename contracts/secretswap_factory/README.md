@@ -10,7 +10,7 @@ The factory contract can perform creation of secretswap pair contract and also b
   "token_code_id": "123",
   "init_hook": {
     "msg": "123",
-    "contract_addr": "terra..."
+    "contract_addr": "secret..."
   }
 }
 ```
@@ -22,7 +22,7 @@ The factory contract can perform creation of secretswap pair contract and also b
 ```json
 {
   "update_config": {
-    "owner": "terra...",
+    "owner": "secret...",
     "token_id": "123",
     "pair_code_id": "123"
   }
@@ -37,12 +37,12 @@ The factory contract can perform creation of secretswap pair contract and also b
     "asset_infos": [
       {
         "token": {
-          "contract_address": "terra..."
+          "contract_address": "secret..."
         }
       },
       {
         "native_token": {
-          "denom": "uusd"
+          "denom": "uscrt"
         }
       }
     ]
@@ -58,12 +58,12 @@ The factory contract can perform creation of secretswap pair contract and also b
     "asset_infos": [
       {
         "token": {
-          "contract_address": "terra..."
+          "contract_address": "secret..."
         }
       },
       {
         "native_token": {
-          "denom": "uusd"
+          "denom": "uscrt"
         }
       }
     ]
@@ -89,12 +89,12 @@ The factory contract can perform creation of secretswap pair contract and also b
     "asset_infos": [
       {
         "token": {
-          "contract_address": "terra..."
+          "contract_address": "secret..."
         }
       },
       {
         "native_token": {
-          "denom": "uusd"
+          "denom": "uscrt"
         }
       }
     ]
@@ -138,12 +138,12 @@ When a user execute `CreatePair` operation, it creates `Pair` contract and `LP(l
     "asset_infos": [
       {
         "token": {
-          "contract_addr": "terra1~~"
+          "contract_addr": "secret~~"
         }
       },
       {
         "native_token": {
-          "denom": "uusd"
+          "denom": "uscrt"
         }
       }
     ]
@@ -161,11 +161,11 @@ Once a `Pair` contract invokes it, the sender address is registered as `Pair` co
 { "register":
     "asset_infos": [{
         "token": {
-            "contract_addr": "terra1~~",
+            "contract_addr": "secret~~",
             }
         }, {
             "native_token": {
-                "denom": "uusd",
+                "denom": "uscrt",
             }
     }],
 }
