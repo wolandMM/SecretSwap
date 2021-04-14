@@ -1,6 +1,6 @@
-# Terraswap: Common Types
+# SecretSwap: Common Types
 
-This is a collection of common types and the queriers which are commonly used in terraswap contracts.
+This is a collection of common types and the queriers which are commonly used in secretswap contracts.
 
 ## Data Types
 
@@ -53,7 +53,7 @@ pub fn query_balance<S: Storage, A: Api, Q: Querier>(
 
 ### Token Balance Querier
 
-It provides simliar query interface with [Native-Token-Balance-Querier](Native-Token-Balance-Querier) for CW20 token balance. 
+It provides simliar query interface with [Native-Token-Balance-Querier](Native-Token-Balance-Querier) for SNIP20 token balance. 
 
 ```rust
 pub fn query_token_balance<S: Storage, A: Api, Q: Querier>(
@@ -65,7 +65,7 @@ pub fn query_token_balance<S: Storage, A: Api, Q: Querier>(
 
 ### Token Supply Querier
 
-It provides token supply querier for CW20 token contract.
+It provides token supply querier for SNIP20 token contract.
 
 ```rust
 pub fn query_supply<S: Storage, A: Api, Q: Querier>(
@@ -76,7 +76,7 @@ pub fn query_supply<S: Storage, A: Api, Q: Querier>(
 
 ### Pair Info Querier
 
-It also provides the query interface to query avaliable terraswap pair contract info. Any contract can query pair info to terraswap factory contract.
+It also provides the query interface to query avaliable secretswap pair contract info. Any contract can query pair info to secretswap factory contract.
 
 ```rust
 pub fn query_pair_contract<S: Storage, A: Api, Q: Querier>(
@@ -88,7 +88,7 @@ pub fn query_pair_contract<S: Storage, A: Api, Q: Querier>(
 
 ### Liquidity Token Querier
 
-It returns liquidity token contract address of terraswap pair contract. 
+It returns liquidity token contract address of secretswap pair contract. 
 
 ```rust
 pub fn query_liquidity_token<S: Storage, A: Api, Q: Querier>(
