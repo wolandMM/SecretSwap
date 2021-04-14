@@ -1,13 +1,15 @@
-# TerraSwap
+# SecretSwap
 
-Uniswap-inspired automated market-maker (AMM) protocol powered by Smart Contracts on the [Terra](https://terra.money) blockchain.
+SecretSwap is the first front-running resistant, cross-chain and privacy first automated market-maker (AMM) protocol powered by Secret Contracts on the [Secret Network](https://scrt.network) blockchain.
+
+Built on the principles of usability and privacy, SecretSwap provides a foundation for the open accessible financial system of the future. Our primary focus is to protect our users from value extracting players by focusing on privacy, a basic human right. SecretSwap is a liquidity hub that connects to other ecosystems for maximum user protection and access to assets.
 
 ## Contracts
 
 | Name                                               | Description                                  |
 | -------------------------------------------------- | -------------------------------------------- |
-| [`terraswap_factory`](contracts/secretswap_factory) |                                              |
-| [`terraswap_pair`](contracts/secretswap_pair)       |                                              |
+| [`secretswap_factory`](contracts/secretswap_factory) |                                              |
+| [`secretswap_pair`](contracts/secretswap_pair)       |                                              |
 | [`terraswap_token`](contracts/terraswap_token)     | CW20 (ERC20 equivalent) token implementation |
 
 ## Running this contract
